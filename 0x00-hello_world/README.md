@@ -1,1 +1,1 @@
-Statring to code in C
+Starting to code in C
