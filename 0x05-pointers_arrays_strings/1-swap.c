@@ -7,7 +7,7 @@
  * @b: pointer to the second integer
  * Return: the program returns nothing
  */
- void swap_int(int *a, int *b)
+void swap_int(int *a, int *b)
 {
 	int swap;
 
