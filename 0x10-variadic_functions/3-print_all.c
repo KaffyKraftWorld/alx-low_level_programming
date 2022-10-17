@@ -1,15 +1,15 @@
 #include "variadic_functions.h"
 
 /**
- * print_all - Prints anything
- * @format: a list of types of arguments passed to the function
- * Return: no return
+ * print_all - prints anthing.
+ * @format: a list of types of arguments passed to the function.
+ *
+ * Return: no return.
  */
 void print_all(const char * const format, ...)
 {
 	va_list valist;
 	unsigned int i = 0, j, c = 0;
-
 	char *str;
 	const char t_arg[] = "cifs";
 
@@ -44,9 +44,7 @@ void print_all(const char * const format, ...)
 				break;
 			}
 			printf("%s", str);
-			break;
 		} i++;
 	}
-	printf("\n");
-	va_end(valist);
+	printf("\n"), va_end(valist);
 }
